@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Chernushov88/testJS/issues"
   },
-  "homepage": "https://github.com/Chernushov88/testJS#readme"
+  "homepage": "https://github.com/Chernushov88/testJS#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
