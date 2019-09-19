@@ -4,7 +4,10 @@
   "description": "test-project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "lint": "eslint ./src",
+    "start": "webpack src/index.js --output public/bundle.js --mode development"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,11 @@
   },
   "homepage": "https://github.com/Chernushov88/testJS#readme",
   "dependencies": {
+    "eslint": "^6.4.0",
     "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
   }
 }
